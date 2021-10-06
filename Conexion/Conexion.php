@@ -1,12 +1,6 @@
 <?php 
     
-    define("DATABASE", "ejemplo1");
-    define("HOSTNAME", "localhost");
-    define("USERNAME", "ele1990");
-    define("PASSWORD", "Root1234.");
-    /**
-     * summary
-     */
+    include_once("login.php")
     class Conexion
     {
         /**
